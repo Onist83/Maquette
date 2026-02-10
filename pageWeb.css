@@ -17,6 +17,7 @@
 
 img { 
     width : 400px;
+    padding: 10%;
 }
 
 .container {
@@ -33,7 +34,7 @@ img {
     align-items: flex-start;
     justify-content: center;
     color: white;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .text1 {
@@ -42,6 +43,10 @@ img {
 
 .text2 {
     background-color: blue;
+}
+
+.pMargin {
+    margin: 0px;
 }
 
 button {
@@ -128,8 +133,53 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left : 50px;
+
 }
 
-.imgVsCode {
+.imgVsCode{
+    margin-right: 130px;
 }
+
+/* Section 3.3 */
+
+.section3C {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.textContainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.imgClavier {
+    margin-left: 50px;
+}
+
+/* Section 4 */
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width : 50%;
+}
+
+.colonne {
+    display: flex;
+    flex-direction: column;
+}
+
+.taille {
+    width : 100%;
+}
+
+.imgSect4 {
+    width: 100%;
+    display: flex;
+}
+
+/* object fit : contain ou cover */
