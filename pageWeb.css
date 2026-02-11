@@ -1,185 +1,230 @@
 /* Section 1 */
 
 .header {
-    display: flex;
+    display : flex;
 }
 
 .border {
-    display: flex;
+    display : flex;
     border : 1px solid black;
     padding : 5px;
     margin : 5px;
 }
 
+.textPadding {
+    display : flex;
+    align-items : center;
+    gap : 10px;
+    padding-left : 1100px;
+}
+
 .headerSuite {
-    display: flex;
+    display : flex;
+    align-items : center;
 }
 
 img { 
     width : 400px;
-    padding: 10%;
+    padding : 10%;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    background-color : blueviolet;
 }
 
 .textContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    color: white;
-    margin-left: 60px;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    color : white;
+    margin-left : 60px;
 }
 
 .text1 {
-    background-color: blue;
+    background-color : blue;
 }
 
 .text2 {
-    background-color: blue;
+    background-color : blue;
 }
 
 .pMargin {
-    margin: 0px;
+    margin : 0px;
 }
 
 button {
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: salmon;
-    border: none;
-    color: white;
+    border-radius : 5px;
+    padding : 10px 20px;
+    background-color : salmon;
+    border : none;
+    color : white;
 }
-
 
 /* Section 2 */
 
 .section2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    margin-top : 20px;
 }
 
 .numbers {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 100px;
     color : #0AEBFF;
-    background-image: linear-gradient(45deg, #0AEBFF 10%, #8C80BF 55%, #6D23B8 76%, #A8198E 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-image : linear-gradient(45deg, #0AEBFF 10%, #8C80BF 55%, #6D23B8 76%, #A8198E 100%);
+    background-clip : text;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
 }
 
 .textNumb {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 30px;
 }
 
 .textGradient {
     color : #0AEBFF;
     background-image: linear-gradient(45deg, #0AEBFF 10%, #8C80BF 55%, #6D23B8 76%, #A8198E 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
 }
 
 /* Section 3.1 */
 
 .section3A {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin-top : 50px;
 }
 .textColorRed {
-    color: red;
+    color : red;
 }
 
 .textContainer2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
 
 }
 
 .imgElephant {
-    margin-left: 50px;
+    margin-left : 50px;
 }
 
 /* Section 3.2 */
 
 .section3B {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin-top : 50px;
 }
 
 .textContainer3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
 
 }
 
 .imgVsCode{
-    margin-right: 130px;
+    margin-right : 130px;
 }
 
 /* Section 3.3 */
 
 .section3C {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin-top : 50px;
 }
 
 .textContainer3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
 
 }
 
 .imgClavier {
-    margin-left: 50px;
+    margin-left : 50px;
 }
 
 /* Section 4 */
+
 .section4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width : 50%;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    background-color : rgb(218, 213, 213);
 }
 
 .colonne {
-    display: flex;
-    flex-direction: column;
-}
-
-.taille {
-    width : 100%;
+    display : flex;
+    flex-direction : column;
 }
 
 .imgSect4 {
-    width: 100%;
-    display: flex;
+    display : flex;
+    object-fit : cover;
+    padding : 0px;
+    width : 300px;
+	height : 300px;
 }
 
-/* object fit : contain ou cover */
+.textSect4A {
+    padding-lef : 15px;
+}
+
+.textSect4B {
+    padding-left : 15px;
+}
+
+/*Footer */
+
+.footer {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : flex-start;
+    background-color : lightgrey;
+}
+
+.gras {
+    font-weight : bold;
+}
+
+.footerColumn {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    margin-top : 50px;
+}
+
+.logo {
+    width : 20px;
+    padding : 5px;
+}
+
+.logo2 {
+    width : 30px;
+    padding : 5px;
+}
